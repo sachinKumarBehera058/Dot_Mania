@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 20px;
+  font-weight: 700;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+
+.warning {
+  color: red;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.GenerateBtn,
+.ResetBtn {
+  width: 120px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.GenerateBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+.ResetBtn {
+  background-color: #dc3545;
+  color: white;
+}
